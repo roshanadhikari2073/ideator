@@ -1,0 +1,22 @@
+class Card
+    def initialize(face, number)
+    @face = face
+    @number = number
+    end
+    end
+
+class Deck
+    def initialize
+    @cards = ["spades", "hearts", "diamonds", "clubs"]
+    @counts = ["ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "jack", "queen", "king"]
+    end
+    def shuffle
+    52.times do |i|
+    puts i
+    end
+    def deal 
+    deal.shift
+    puts deal
+    end
+    end
+    
